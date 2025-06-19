@@ -1,0 +1,15 @@
+{
+    "plant": "example_plant",
+    "bucket_name": "your_bucket_name",
+    "directory_s3": "example_plant/scada/",
+    "db_credentials_path": "/path/to/your/db_credentials.json",
+    "tags_table": "your_tags_table",
+    "start_year": 2024,
+    "start_month": 8,
+    "patterns": [
+        "sensor/module/temp_1$",
+        "sensor/module/temp_2$",
+        "sensor/module/temp_3$"
+    ],
+    "timezone": "America/Bogota"
+}
